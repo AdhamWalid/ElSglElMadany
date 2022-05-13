@@ -5,6 +5,7 @@ const moment = require("moment")
 
 client.on('ready' , () => {
     console.log(client.user.username + ' is Alive ')
+    client.user.setActivity(`انا السجل المدني انته مين!؟`)
 })
 
 client.on('messageCreate' ,async (message) => {

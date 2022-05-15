@@ -36,7 +36,7 @@ client.on('messageCreate' ,async (message) => {
             BUGHUNTER_LEVEL_2: 'Bug Hunter (level 2)',
             VERIFIED_BOT: 'Verified Bot',
             VERIFIED_DEVELOPER: 'Verified Developer'
-        
+         
                 }
 
 

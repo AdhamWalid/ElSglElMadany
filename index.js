@@ -13,6 +13,7 @@ client.on('messageCreate' ,async (message) => {
         if (message.author.bot) return;
         if (!message.content.size == 18 || isNaN(message.content)) return message.reply({content:"INVALID ID 😦"})
 
+        
         let info = await client.users.fetch(message.content);
         if (!info) return;
         let embed = new Discord.MessageEmbed()
